@@ -24,8 +24,8 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>
         <div style={{ maxWidth: "600px" }} className="mx-auto">
-          <Header />
           <Navbar />
+          <Header />
           {children}
           <Footer
             year="2023"
