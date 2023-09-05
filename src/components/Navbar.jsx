@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export const Navbar = () => {
   return (
     <div>
@@ -35,7 +33,6 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
-      <hr />
     </div>
   );
 };
